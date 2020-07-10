@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '207b5f9a-f1ee-4bfe-8b07-1710b50fe5d5'
   imageRepository: 'surradevops'
   containerRegistry: 'surradevops.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
