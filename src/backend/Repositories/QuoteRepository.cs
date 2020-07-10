@@ -58,6 +58,14 @@ namespace SwNaQuarentena.Api.Repositories
                         "Deu trabalho mais funfou!",
                         "ufaaaaa"
                     }
+                },
+                {
+                    "miltoncamara",
+                    new List<string>()
+                    {
+                        "Ajudou nois!",
+                        "Habilitem o ADMIN ACCESS NO CONTAINER REGISTRY pelo AMORRRRRRR"
+                    }
                 }
             };
     }
