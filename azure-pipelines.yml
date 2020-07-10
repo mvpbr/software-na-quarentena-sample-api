@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '207b5f9a-f1ee-4bfe-8b07-1710b50fe5d5'
+  dockerRegistryServiceConnection: '7c38cd69-0e31-4b67-a53f-6233fde128d5'
   imageRepository: 'surradevops'
   containerRegistry: 'surradevops.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
