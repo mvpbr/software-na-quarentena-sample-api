@@ -7,8 +7,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
 COPY ["src/backend/SwNaQuarentena.Api.csproj", "/src/backend/"]
 RUN dotnet restore "backend/SwNaQuarentena.Api.csproj"
-COPY src/backend /src/backend
-COPY src/tests /src/tests
+COPY src/. /src/.
 
 WORKDIR /src
 RUN dotnet build "backend/SwNaQuarentena.Api.csproj" -c Release -o /app/build
@@ -20,3 +19,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "SwNaQuarentena.Api.dll"]
+
