@@ -36,11 +36,11 @@ namespace SwNaQuarentena.Api.Repositories
                     "angelo",
                     new List<string>
                     {
-                        "Se eu até sou burro consigo, imagina vocês que são inteligentes!",
-                        "Pra quem tá se afogando, jacaré é tronco!",
-                        "Meu português é intermediário!",
+                        "Se eu atÃ© sou burro consigo, imagina vocÃªs que sÃ£o inteligentes!",
+                        "Pra quem tÃ¡ se afogando, jacarÃ© Ã© tronco!",
+                        "Meu portuguÃªs Ã© intermediÃ¡rio!",
                         "Cada enxadada, uma minhoca!",
-                        "Palmeiras não tem mundial!"
+                        "Palmeiras nÃ£o tem mundial!"
                     }
                 },
                 {
@@ -49,6 +49,14 @@ namespace SwNaQuarentena.Api.Repositories
                     {
                         "Na minha maquina funciona!",
                         "aaaaoooo viiiiivvoooo"
+                    }
+                },
+                {
+                    "surra",
+                    new List<string>()
+                    {
+                        "Deu trabalho mais funfou!",
+                        "ufaaaaa"
                     }
                 }
             };
